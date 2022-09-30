@@ -1,0 +1,35 @@
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+    border: rgb(200, 228, 203)1px solid;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: rgb(200, 228, 203);
+}
+.close:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.close:before,
+.close:after {
+    position: absolute;
+    left: 13px;
+    top: 9px;
+    content: ' ';
+    height: 11px;
+    width: 2px;
+    background-color: rgb(41, 135, 54);
+}
+
+.close:before {
+    transform: rotate(90deg);
+}
+
+.close:after {
+    transform: rotate(-0deg);
+}
