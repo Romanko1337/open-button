@@ -1,4 +1,4 @@
-.close {
+.open {
     position: absolute;
     right: 32px;
     top: 32px;
@@ -10,13 +10,13 @@
     padding: 5px;
     background-color: rgb(200, 228, 203);
 }
-.close:hover {
+.open:hover {
     opacity: 1;
     cursor: pointer;
 }
 
-.close:before,
-.close:after {
+.open:before,
+.open:after {
     position: absolute;
     left: 13px;
     top: 9px;
@@ -26,10 +26,10 @@
     background-color: rgb(41, 135, 54);
 }
 
-.close:before {
+.open:before {
     transform: rotate(90deg);
 }
 
-.close:after {
+.open:after {
     transform: rotate(-0deg);
 }
