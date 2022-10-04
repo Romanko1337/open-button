@@ -1,35 +1,35 @@
-.open {
-    position: absolute;
+.close {
+position: absolute;
     right: 32px;
     top: 32px;
-    width: 30px;
-    height: 30px;
-    opacity: 0.9;
-    border: rgb(200, 228, 203)1px solid;
-    border-radius: 7px;
-    padding: 5px;
-    background-color: rgb(200, 228, 203);
-}
-.open:hover {
+    min-width: 32px;
+    min-height: 32px;
     opacity: 1;
+    border: #E0F1E4 1px solid;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: #E0F1E4;
+}
+.close:hover {
     cursor: pointer;
 }
 
-.open:before,
-.open:after {
+.close:before,
+.close:after {
     position: absolute;
-    left: 13px;
-    top: 9px;
-    content: ' ';
-    height: 11px;
-    width: 2px;
-    background-color: rgb(41, 135, 54);
+        opacity: 0.7;
+        left: 15px;
+        top: 10px;
+        content: ' ';
+        height: 10px;
+        width: 1.25px;
+        background-color: rgb(41, 135, 54);
 }
 
-.open:before {
+.close:before {
     transform: rotate(90deg);
 }
 
-.open:after {
+.close:after {
     transform: rotate(-0deg);
 }
